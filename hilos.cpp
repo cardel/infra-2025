@@ -1,3 +1,8 @@
+/**
+ * Carlos Andres Delgado S
+ * 25 de Febrero de 2025
+ * Ejemplo con thread
+ */
 #include <iostream>
 #include <thread>
 #include <chrono>
