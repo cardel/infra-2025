@@ -16,3 +16,11 @@ tbb:
 	rm exe
 
 all: inicio hilos tbb
+
+ejercicio:
+	g++ -o exe normap_hilos.cpp -lpthread
+	./exe
+	rm exe
+	g++ -o exe normap_tbb.cpp -ltbb
+	./exe
+	rm exe
